@@ -1,0 +1,153 @@
+/* navigation */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1C3059;
+    position: fixed;
+    top: 0;
+    width: 99%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font: 20px Helvetica, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    color: #1C3059;
+}
+
+.active {
+    background-color: white;
+    color: #1C3059;
+}
+
+/* about page */
+
+.h1 {
+    font: 80px Helvetica, sans-serif;
+    color: #1C3059;
+    font-weight: bold;
+    margin-left: 7%;
+    padding: 25px 0px 0px 0px;
+}
+
+.aboutPage {
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    padding: 0px 0px 25px 0px;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 7%;
+    padding-right: 1%;
+    font: 20px helvetica, san-serif;
+    color: #707070;
+    width: 40%;
+}
+
+.heroImage {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7%;
+    padding-left: 1%;
+    width: 40%;
+}
+
+/* button */
+
+.buttonContainer {
+    text-align: center;
+    padding: 1%;
+}
+
+.button {
+    width: 250px;
+    background-color: white;
+    color: #1C3059;
+    font: 20px Helvetica, sans-serif;
+    border: 2px solid #1C3059;
+    border-radius: 8px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px; 
+    margin: 4px 2 px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    }
+
+.button:hover {
+    background-color: #1C3059;
+    color: white;
+}
+
+/* quote page */
+
+.quotePage {
+    background-color: #1C3059;
+    width: 98%;
+    height: auto;
+    padding: 6% 1% 6% 1%;
+}
+
+.quoteElements {
+    width: 98%;
+    height: auto;
+    padding: 1% 1% 1% 1%;
+}
+
+.quoteIcon {
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.quoteIcon img {
+    width: 100%;
+    height: auto;
+}
+
+.quoteContainer {
+    margin: 0 auto;
+    width: 63%;
+    text-align: left;
+    color: white;
+    font: 40px Helvetica, sans-serif;
+}
+
+.authorContainer {
+    margin-left: 70%;
+    margin-bottom: 1%;
+    text-align: left;
+    color: #78849C;
+    font: 20px Helvetica, sans-serif;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    background-color: #1C3059;
+    font: 20px Helvetica, sans-serif;
+    color: white;
+    width: 98%;
+}
